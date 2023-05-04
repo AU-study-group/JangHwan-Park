@@ -11,12 +11,17 @@
       color: #6caed1; }
   .navbar .navbar__menu {
     display: flex; }
-    .navbar .navbar__menu li {
-      padding: 10px 13px;
+    .navbar .navbar__menu .menu__item {
+      padding: 10px 20px;
       font-size: 0.938rem; }
+      .navbar .navbar__menu .menu__item a:hover {
+        font-size: 1.28rem;
+        font-weight: 700;
+        transition: 0.5s all; }
   .navbar .navbar__icons {
+    display: flex;
     color: #373737; }
-    .navbar .navbar__icons i {
+    .navbar .navbar__icons li {
       padding: 8px; }
 
 body {
