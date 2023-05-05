@@ -34,6 +34,11 @@ body {
     color: #373737; }
     .navbar__icons li {
       padding: 8px; }
+  .navbar__toggle__btn {
+    display: none;
+    position: absolute;
+    align-items: center;
+    right: 28px; }
 
 @media (max-width: 780px) {
   .navbar {
@@ -49,4 +54,6 @@ body {
         text-align: center; }
     .navbar__icons {
       justify-content: center;
-      width: 100%; } }
+      width: 100%; }
+    .navbar__toggle__btn {
+      display: block; } }
