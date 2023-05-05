@@ -40,6 +40,23 @@ body {
     transform: translateY(30%);
     right: 28px; }
 
+.product__selection {
+  margin: 5rem;
+  border: 1px solid #373737; }
+  .product__selection .product__container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .product__selection .product__container .product__name {
+      font-size: 1.15rem; }
+    .product__selection .product__container .product__wrapper .product__list {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .product__selection .product__container .product__wrapper .product__list .product__item {
+        font-size: 1rem;
+        padding: 0.65rem; }
+
 @media (max-width: 780px) {
   .navbar {
     flex-direction: column;
