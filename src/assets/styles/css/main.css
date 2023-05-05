@@ -57,6 +57,18 @@ body {
         font-size: 1rem;
         padding: 0.65rem; }
 
+.table__product {
+  margin: 3rem; }
+  .table__product .table__list {
+    display: grid;
+    font-size: medium;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+    .table__product .table__list .table__item {
+      font-size: 1.05rem;
+      text-align: center; }
+
 @media (max-width: 780px) {
   .navbar {
     flex-direction: column;
