@@ -1,0 +1,117 @@
+body {
+  font-family: "Golos Text", sans-serif;
+  margin: 0; }
+  body ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  body a {
+    text-decoration: none;
+    color: #373737; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eeeeee;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px 13px; }
+  .navbar__logo {
+    font-size: 1.25rem; }
+    .navbar__logo i {
+      color: #6caed1; }
+  .navbar__menu {
+    display: flex; }
+    .navbar__menu .menu__item {
+      padding: 10px 20px;
+      font-size: 0.938rem; }
+      .navbar__menu .menu__item a:hover {
+        font-size: 1.28rem;
+        font-weight: 700;
+        transition: 0.5s all; }
+  .navbar__icons {
+    display: flex;
+    color: #373737; }
+    .navbar__icons li {
+      padding: 8px; }
+  .navbar__toggle__btn {
+    display: none;
+    position: absolute;
+    transform: translateY(30%);
+    right: 28px; }
+
+.product__selection {
+  margin: 5rem;
+  border: 1px solid #373737; }
+  .product__selection .product__container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .product__selection .product__container .product__name {
+      font-size: 1.15rem; }
+    .product__selection .product__container .product__wrapper .product__list {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .product__selection .product__container .product__wrapper .product__list .product__item {
+        font-size: 1rem;
+        padding: 0.65rem; }
+
+.table__product {
+  margin: 3rem; }
+  .table__product .table__list {
+    display: grid;
+    font-size: medium;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+    .table__product .table__list .table__item {
+      font-size: 1.05rem;
+      text-align: center; }
+
+@media (max-width: 780px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; }
+
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+
+  .navbar__menu.active {
+    display: flex; }
+    .navbar__menu.active .menu__item {
+      width: 100%;
+      text-align: center; }
+
+  .navbar__icons {
+    justify-content: center;
+    width: 100%; }
+
+  .navbar__icons.active {
+    display: flex; }
+
+  .navbar__toggle__btn {
+    display: block; }
+
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+
+  .navbar__menu.active {
+    display: flex; }
+
+  .navbar__icons {
+    display: none;
+    justify-content: center;
+    width: 100%; }
+
+  .navbar__icons.active {
+    display: flex; } }
+
+/*# sourceMappingURL=main.css.map */

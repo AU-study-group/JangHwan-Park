@@ -1,20 +1,4 @@
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Google font CDN-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
-    <!-- Fontawesome CDN -->
-    <script src="https://kit.fontawesome.com/6f111b5450.js" crossorigin="anonymous"></script>
-    <!-- Styles -->
-    <link rel="stylesheet" href="/src/assets/styles/css/main.css">
-    <title>Document</title>
-</head>
-<body>
+export const navigation = `
 <nav class="navbar">
     <div class="navbar__logo">
         <i class="fa-solid fa-house"></i>
@@ -48,6 +32,4 @@
         <i class="fa-solid fa-plus"></i>
     </a>
 </nav>
-<script src="navEvent.js"></script>
-</body>
-</html>
+`
