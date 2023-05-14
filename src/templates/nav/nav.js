@@ -7,7 +7,7 @@ export const navigation = `
     <!-- Nav Menu -->
     <ul class="navbar__menu">
         <li class="menu__item">
-            <a href="#">Services</a>
+            <a href="#">Archive</a>
         </li>
         <li class="menu__item">
             <a href="#">Portfolio</a>

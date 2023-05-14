@@ -40,6 +40,34 @@ body {
     transform: translateY(30%);
     right: 28px; }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #eeeeee;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px 13px; }
+  .footer__contents {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+    .footer__contents__column {
+      width: 20%; }
+      .footer__contents__column__title {
+        font-weight: bold;
+        margin-bottom: 10px; }
+      .footer__contents__column__list {
+        list-style: none;
+        padding: 0; }
+        .footer__contents__column__list li {
+          margin-bottom: 5px; }
+  .footer__text {
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 0.8em; }
+
 .product__selection {
   margin: 5rem;
   border: 1px solid #373737; }
